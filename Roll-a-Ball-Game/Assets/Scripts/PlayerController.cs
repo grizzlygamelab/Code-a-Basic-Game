@@ -17,7 +17,8 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
-    private int count;
+    // How many items the player should collect
+    [SerializeField] private int count;
 
     // Rigidbody of the player.
     private Rigidbody rb;
